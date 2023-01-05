@@ -295,4 +295,17 @@
 // }
 
 
-
+// highest num from array that not presented in arr
+// function solution(A) {
+//   const filtered = A.filter((num, i) => {
+//       return A.indexOf(num) === i
+//   });
+//   const sorted = filtered.sort((a, b) => {
+//       return a - b});
+//   const result = sorted.map((num, i) => {
+//       if (num > 0 && sorted[i + 1] !== sorted[i] + 1) {
+//           return sorted[i] + 1
+//       }
+//   }).filter(num => num !== undefined)[0]
+//   return result === undefined ? 1 : result
+// }
