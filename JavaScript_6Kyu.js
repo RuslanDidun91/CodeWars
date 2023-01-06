@@ -75,3 +75,30 @@
 //     }
 //     return result;
 // }
+
+
+//banking account balance
+// function solution(A, D) {
+//   let balance = 0;
+//   let cardPayments = {};
+//   for (let i = 0; i < A.length; i++) {
+//       balance += A[i];
+//       let month = D[i].substring(5, 7);
+//       let year = D[i].substring(0, 4);
+//       if (A[i] < 0) {
+//           if (!cardPayments[year]) {
+//               cardPayments[year] = {};
+//           }
+//           if (!cardPayments[year][month]) {
+//               cardPayments[year][month] = {
+//                   count: 1,
+//                   total: -A[i]
+//               }
+//           }
+//           else {
+//               cardPayments[year][month].count++;
+//               cardPayments[year][month].total -= A[i];
+//           }
+//       }
+//   }
+
