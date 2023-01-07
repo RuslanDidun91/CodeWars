@@ -319,3 +319,25 @@
 //   }
 //   return count
 // }
+
+// const freqSeq = (str, sep) =>
+//   [...str].map((el, i, arr) => arr.filter(el1 => el1 === el).length).join(sep)
+
+
+// const createDict = (keys, values) => {
+//   let result = {}
+//   for (let i = 0; i < keys.length; i++) {
+//     if (i < values.length) {
+//       result[keys[i]] = values[i]
+//     } else {
+//       result[keys[i]] = null
+//     }
+//   }
+//   return result
+// }
+
+// function createDict(keys, values){
+//   let dict = {}
+//   keys.map((el, i , arr) => dict[el] = values[i] != undefined ? values[i] : null);
+//   return dict;
+// }
