@@ -309,3 +309,13 @@
 //   }).filter(num => num !== undefined)[0]
 //   return result === undefined ? 1 : result
 // }
+
+
+// function collatz(n) {
+//   let count = 1
+//   while (n > 1) {
+//       n = n % 2 ? 3 * n + 1 : n / 2
+//       count++
+//   }
+//   return count
+// }
