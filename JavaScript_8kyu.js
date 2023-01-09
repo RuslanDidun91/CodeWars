@@ -550,6 +550,3 @@
 //     return int.toString(2).replace(/0/g, '').length
 // }
 
-//Cat shelves
-// const solution = (start, finish, difference = finish - start) =>
-//     Math.floor(difference / 3) + difference % 3
