@@ -341,3 +341,15 @@
 //   keys.map((el, i , arr) => dict[el] = values[i] != undefined ? values[i] : null);
 //   return dict;
 // }
+
+//generate nums between 0 and 10000
+// const seedNums = () => {
+//   let nums = Array.from({ length: 10000 }, (_, i) => i + 1)
+//   for (let i = nums.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     let temp = nums[i];
+//     nums[i] = nums[j];
+//     nums[j] = temp;
+//   }
+//   return nums
+// }
