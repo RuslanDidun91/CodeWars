@@ -342,7 +342,7 @@
 //   return dict;
 // }
 
-//generate nums between 0 and 10000
+// generate nums between 0 and 10000
 // const seedNums = () => {
 //   let nums = Array.from({ length: 10000 }, (_, i) => i + 1)
 //   for (let i = nums.length - 1; i > 0; i--) {
@@ -352,4 +352,19 @@
 //     nums[j] = temp;
 //   }
 //   return nums
+// }
+
+// function findProduct(arr) {
+//   let left = 1;
+//   let product = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     product[i] = left;
+//     left *= arr[i];
+//   }
+//   let right = 1;
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     product[i] *= right;
+//     right *= arr[i];
+//   }
+//   return product;
 // }
