@@ -134,7 +134,7 @@
 // console.log(fizzbuzz);
 
 //isPalindrome
-//const isPalindrome = (str) => {
+// const isPalindrome = (str) => {
 //     let re = /[\W_]/g;
 //     let string = str.toLowerCase().replace(re, '')
 //     let newStr = string.split('').reverse().join('')

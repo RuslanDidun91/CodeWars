@@ -181,3 +181,38 @@
 //     }
 //     return max;
 // }
+
+
+//linked lists
+// var reorderList = function(head) {
+//   if (!head || !head.next) return head;
+
+//   let slow = head, fast = head.next;
+//   const findMiddle = (slow, fast) => {
+//       while (fast && fast.next) {
+//           slow = slow.next;
+//           fast = fast.next.next;
+//       }
+//       return slow;
+//   }
+//   slow = findMiddle(slow, fast);
+
+//   let curr = slow.next;
+//   slow.next = null;
+//   const reverse = (curr) => {
+//       let prev = null;
+//       while (curr) {
+//           [prev, curr.next, curr] = [curr, prev, curr.next];
+//       }
+//       return prev;
+//   }
+//   let second = reverse(curr);
+
+//   let first = head;
+//   const interleave = (first, second) => {
+//       while (second) {
+//           [first.next, second.next, first, second] = [second, first.next, first.next, second.next];
+//       }
+//   }
+//   interleave(first, second);
+// };
