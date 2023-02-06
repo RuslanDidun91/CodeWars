@@ -102,3 +102,23 @@
 //       }
 //   }
 
+//reversed strings
+// function solve(s){
+//   let openBracketCount = 0 
+//   let countReversals = 0
+//   for (let i=0; i<s.length; i++) {
+//     const curr = s[i]
+//     if (curr === "(") {
+//       openBracketCount += 1
+//     } 
+//     else if (openBracketCount > 0 && curr === ")") {
+//       openBracketCount -= 1
+//     } 
+//     else {
+//       countReversals += 1
+//       openBracketCount += 1
+//     }
+//   }
+//   countReversals += Math.ceil(openBracketCount/2)
+//   return openBracketCount%2 === 0 ? countReversals : -1
+// }
