@@ -553,3 +553,12 @@
 //Cat shelves
 // const solution = (start, finish, difference = finish - start) =>
 //     Math.floor(difference / 3) + difference % 3
+
+// closure counter 
+// function makeCounter() {
+//     let value = 0;
+//     return function() {
+//         return value++
+//     }
+// }
+// makeCounter()()
