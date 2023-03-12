@@ -132,3 +132,28 @@
 //   }
 //   return arr
 // }
+
+// function CalculateRollingAverage(input, windowSize) {
+//   const result = [];
+
+//   let sum = 0;
+//   for (let i = 0; i < windowSize; i++) {
+//     sum += input[i].temperature;
+//   }
+
+//   for (let i = 0; i < input.length; i++) {
+//     const rollingAverage = sum / windowSize;
+
+//     result.push({
+//       temperature: rollingAverage,
+//       timestamp: input[i].timestamp
+//     });
+
+//     if (i + 1 < input.length) {
+//       // slide the window
+//       sum = sum - input[i - windowSize + 1].temperature + input[i + 1].temperature;
+//     }
+//   }
+
+//   return result;
+// }
