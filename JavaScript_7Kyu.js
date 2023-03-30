@@ -371,3 +371,16 @@
 
 // summ numbers not using + operator
 // const getSum = (a, b) => (b === 0) ? a : getSum(a ^ b, (a & b) << 1);
+
+//ispalendrom recursion
+// const isPalindrome = (x) => {
+//   const str = x.toString()
+//   if (str.length === 1 || str.length === 0) {
+//     return true;
+//   }
+//   if (str[0] === str[str.length - 1]) {
+//     return isPalindrome(str.slice(1, str.length - 1));
+//   } else {
+//     return false
+//   }
+// };
