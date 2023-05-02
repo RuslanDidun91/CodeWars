@@ -6,10 +6,8 @@
 [![Instagram Badge](https://img.shields.io/badge/-wanderlust_unlimited-skyblue?style=flat&logo=Instagram&logoColor=black)](https://www.instagram.com/wanderlust_unlimited_/)
 [![GitHub Badge](https://img.shields.io/badge/-RuslanDidun-junglegreen?style=flat&logo=GitHub&logoColor=black)](https://github.com/RuslanDidun)
 
-
 ### My codeWars [account 👈](https://www.codewars.com/users/Kano06)
 <div id="description" align="center">
-
 
 ## :pencil: Description
 Trying to solve some tasks from codeWars. 
@@ -17,8 +15,6 @@ Trying to solve some tasks from codeWars.
 <span id="header" align="left">
   <img src="https://i.imgur.com/ncpMIi9.png" width="700" height="500">
 </span>
-
-
 
 ### :fast_forward: Progress
 
@@ -33,5 +29,3 @@ Trying to solve some tasks from codeWars.
 - [ ] 4kuy
 
 - [ ] 4kuy
-
-
