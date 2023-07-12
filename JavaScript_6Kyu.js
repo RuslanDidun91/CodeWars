@@ -195,3 +195,17 @@ const getDifference = (bird1, bird2) => {
   }
   return dif;
 };
+
+
+function canalMania(lowQueue, highQueue, lockLength) {
+  let total = 0;
+  while (lowQueue.length || highQueue.length) {
+    let boatlen = 0;
+    while (lowQueue.length && boatlen + lowQueue[0] <= lockLength) boatlen += lowQueue.shift();
+    total += boatlen * 2 + 2;
+    boatlen = 0;
+    while (highQueue.length && boatlen + highQueue[0] <= lockLength) boatlen += highQueue.shift();
+    total += boatlen * 2 + 2;
+  }
+  return total;
+}
