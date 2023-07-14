@@ -235,3 +235,16 @@
 
 //   return maxSum;
 // };
+
+// function countColHits(k, c, [a, b]) {
+//   let d = {}
+//   for (let i = 2, p = 1; p <= b; i++) {
+//     if (p >= a && p <= b) {
+//       d[c[(p - 1) % c.length]] = d[c[(p - 1) % c.length]] + 1 || 1
+//     }
+//     p = p + i + k
+//   }
+//   let m = Math.max(...Object.values(d))
+//   let r = Object.keys(d).filter(k => d[k] === m).sort()
+//   return r.length ? [m, r.length > 1 ? r : r[0]] : []
+// }

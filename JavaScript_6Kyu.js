@@ -178,34 +178,34 @@
 // };
 
 
-const child = (bird1, bird2) => {
-  if (bird1 === bird2) return false;
-  return getDifference(bird1, bird2) < 3;
-};
+// const child = (bird1, bird2) => {
+//   if (bird1 === bird2) return false;
+//   return getDifference(bird1, bird2) < 3;
+// };
 
-const grandchild = (bird1, bird2) => {
-  if (bird1.length === 1 && bird2.length === 1 && bird2 !== bird1) return false;
-  return getDifference(bird1, bird2) <= 4;
-};
+// const grandchild = (bird1, bird2) => {
+//   if (bird1.length === 1 && bird2.length === 1 && bird2 !== bird1) return false;
+//   return getDifference(bird1, bird2) <= 4;
+// };
 
-const getDifference = (bird1, bird2) => {
-  let dif = 0;
-  for (let i = 0; i < bird1.length; i++) {
-    if (bird1[i] !== bird2[i]) dif++;
-  }
-  return dif;
-};
+// const getDifference = (bird1, bird2) => {
+//   let dif = 0;
+//   for (let i = 0; i < bird1.length; i++) {
+//     if (bird1[i] !== bird2[i]) dif++;
+//   }
+//   return dif;
+// };
 
 
-function canalMania(lowQueue, highQueue, lockLength) {
-  let total = 0;
-  while (lowQueue.length || highQueue.length) {
-    let boatlen = 0;
-    while (lowQueue.length && boatlen + lowQueue[0] <= lockLength) boatlen += lowQueue.shift();
-    total += boatlen * 2 + 2;
-    boatlen = 0;
-    while (highQueue.length && boatlen + highQueue[0] <= lockLength) boatlen += highQueue.shift();
-    total += boatlen * 2 + 2;
-  }
-  return total;
-}
+// function canalMania(lowQueue, highQueue, lockLength) {
+//   let total = 0;
+//   while (lowQueue.length || highQueue.length) {
+//     let boatlen = 0;
+//     while (lowQueue.length && boatlen + lowQueue[0] <= lockLength) boatlen += lowQueue.shift();
+//     total += boatlen * 2 + 2;
+//     boatlen = 0;
+//     while (highQueue.length && boatlen + highQueue[0] <= lockLength) boatlen += highQueue.shift();
+//     total += boatlen * 2 + 2;
+//   }
+//   return total;
+// }
