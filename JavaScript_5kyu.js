@@ -247,3 +247,15 @@
 //   let r = Object.keys(d).filter(k => d[k] === m).sort()
 //   return r.length ? [m, r.length > 1 ? r : r[0]] : []
 // }
+
+const maxSequence = (arr) => {
+  let maxSum = 0;
+  let currentSum = 0;
+
+  for (const num of arr) {
+    currentSum = Math.max(num, currentSum + num);
+    maxSum = Math.max(maxSum, currentSum);
+  }
+
+  return maxSum;
+};
