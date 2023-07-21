@@ -256,7 +256,6 @@
 //     currentSum = Math.max(num, currentSum + num);
 //     maxSum = Math.max(maxSum, currentSum);
 //   }
-
 //   return maxSum;
 // };
 
